@@ -104,7 +104,7 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363161513685998@newsletter',
+            newsletterJid: '120363398260172969@newsletter',
             newsletterName: 'KAYBOY-MD',
             serverMessageId: -1
         }
