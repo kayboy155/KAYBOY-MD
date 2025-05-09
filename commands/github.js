@@ -1,13 +1,24 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 KnightBot MD*
+    const repoInfo = `*KAYBOY MD*
 
-*📂 GitHub Repository:*
-https://github.com/mruniquehacker/Knightbot-MD
-
-*📢 Official Channel:*
-https://youtube.com/@mr_unique_hacker
-
-_Star ⭐ the repository if you like the bot!_`;
+╒┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄◈
+┋▩ *📂 ᏀᏆͲᎻႮᏴ ᎡᎬᏢϴՏᏆͲϴᎡᎽ:*
+┋   https://github.com/Kayboy15/KAYBOY-MD
+┋
+┋▩ *ᏦᎪᎽᏴϴᎽ-ᎷᎠ ᏀᎡϴႮᏢ:*
+┋     https://chat.whatsapp.com/JfFGYIVmrwk7uYb8fWyn0V
+┋
+┋
+┋▩ *ϴҒҒᏆᏟᎪᏞ ᏟᎻᎪΝΝᎬᏞ* 
+┋   https://whatsapp.com/channel/0029VbAjDiYJf05hsaM06704
+┋
+┋▩ *ᎠᎬᏙᎬᏞϴᏢᎬᎡ*
+┋▩  ᴋᴀʏʙᴏʏ/ᴋᴇɪᴛʜ-ᴛᴇᴄʜ
+┋
+┋▩ *ՏႮᏢᏢϴᎡͲ*
+┋    +263789745277
+╘┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄◈
+> ᴘʟᴇᴀꜱᴇ ꜱᴛᴀʀ⭐ ᴍʏ ʀᴇᴘᴏꜱɪᴛᴏʀʏ_`;
 
     try {
         await sock.sendMessage(chatId, {
