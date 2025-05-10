@@ -10,8 +10,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363416998900907@newsletter',
+                        newsletterName: 'KAYBOY-MD',
                         serverMessageId: -1
                     }
                 }
@@ -29,8 +29,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363416998900907@newsletter',
+                        newsletterName: 'KAYBOY-MD',
                         serverMessageId: -1
                     }
                 }
@@ -48,8 +48,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterJid: '120363416998900907@newsletter',
+                            newsletterName: 'KAYBOY-MD',
                             serverMessageId: -1
                         }
                     }
@@ -62,15 +62,15 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363416998900907@newsletter',
+                        newsletterName: 'KAYBOY-MD',
                         serverMessageId: -1
                     }
                 }
             });
 
             try {
-                const response = await axios.get(`https://knight-bot-paircode.onrender.com/code?number=${number}`);
+                const response = await axios.get(`https://kayboy-pair-code.onrender.com/code?number=${number}`);
                 
                 if (response.data && response.data.code) {
                     const code = response.data.code;
@@ -85,8 +85,8 @@ async function pairCommand(sock, chatId, message, q) {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterJid: '120363416998900907@newsletter',
+                                newsletterName: 'KAYBOY-MD',
                                 serverMessageId: -1
                             }
                         }
@@ -106,8 +106,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterJid: '120363416998900907@newsletter',
+                            newsletterName: 'KAYBOY-MD',
                             serverMessageId: -1
                         }
                     }
@@ -122,8 +122,8 @@ async function pairCommand(sock, chatId, message, q) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '120363416998900907@newsletter',
+                    newsletterName: 'KAYBOY-MD',
                     serverMessageId: -1
                 }
             }
