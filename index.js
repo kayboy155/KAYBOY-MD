@@ -55,7 +55,7 @@ const store = makeInMemoryStore({
 let phoneNumber = "911234567890"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "KNIGHT BOT"
+global.botname = "KAYBOY-MD"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -127,7 +127,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363416998900907@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterName: 'KAYBOY-MD',
                                 serverMessageId: -1
                             }
                         }
@@ -208,14 +208,14 @@ async function startXeonBotInc() {
             // Send message to bot's own number
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
+                text: `KAYBOY-MD Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
                 \n✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363416998900907@newsletter',
+                        newsletterName: 'KAYBOY MD',
                         serverMessageId: -1
                     }
                 }
