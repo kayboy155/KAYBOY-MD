@@ -8,7 +8,6 @@ async function helpCommand(sock, chatId, channelLink) {
 │╭─┈┈┈┈┈┈┈┈┈┈┈┈✦
 │✞ *⚡ᴘʀᴇꜰɪx:* [.]
 │✞ *⚙️ᴍᴏᴅᴇ:* 
-│✞ *📅ᴅᴀᴛᴇ:* ${newDate().toLocaleString()}
 │✞ *🛢ᴛᴏᴛᴀʟ ᴄᴍᴅꜱ:* 66
 │✞ *🧑‍💻 ᴄʀᴇᴀᴛᴏʀ:* ᴋᴀʏʙᴏʏ/ᴋᴇɪᴛʜ
 │✞ *👤ᴡᴀ ᴍᴇ*: wa.me/263789745277
